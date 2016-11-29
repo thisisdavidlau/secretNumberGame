@@ -1,0 +1,102 @@
+body {
+	text-align: center;
+	font-family: 'Sigmar One', cursive;
+	line-height: 30px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.wrap {
+	border: 10px solid #000000;
+	width: 400px;
+	height: 480px;
+	margin: 50px auto;
+	display: inline-block;
+
+}
+
+.secOne {
+	margin-top: 50px;
+}
+
+.secOne input {
+	width: 200px;
+	font-size: 30px;
+	padding: 10px;
+	border: 5px solid #000000;
+	text-align: center;
+	
+}
+
+.secOne button {
+	display: block;
+	width: 100px;
+	height: 50px;
+	margin: 20px auto;
+	border: 5px solid #000000;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: 'Sigmar One', cursive;
+}
+
+#text {
+	font-size: 30px;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 10px solid #000000;
+	position: relative;
+	float: right;
+	left: 50px;
+	bottom: 50px;
+	background-color: #ffffff;
+	visibility: hidden;
+}
+
+.unset {
+	visibility: visible !important;
+}
+
+.redBack {
+	background-color: red !important;
+}
+
+#chances {
+	padding: 5px;
+	font-size: 30px;
+}
+
+#lose {
+	border: 10px solid #000000;
+	width: 500px;
+	height: 300px;
+	margin: -1000px auto;
+	padding-top: 30px;
+	display: inline-block;
+	position: relative;
+	/*right: 165px;*/
+	bottom: 250px;
+	visibility: hidden;
+	background-color: #ffffff;
+}
+
+
+
+.lose h1 {
+	margin: 100px auto 0;
+}
+
+#lose button {
+	display: block;
+	width: 100px;
+	height: 80px;
+	margin: 20px auto;
+	border: 5px solid #000000;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: 'Sigmar One', cursive;
+	line-height: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<!-- head -->
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+
+
+</head>
+<!-- body -->
+<body>
+	<div class="wrap" id="wrap">
+		<div class="secOne">
+			<h1>The Secret Number<br>Between 1 and 100</h1>
+			<h2>Can you find it?</h2>
+			<input type="text" id="userInput">
+			<button onclick="getInfo()" type="button" id="btn">Enter</button>
+		</div>
+		<div class="secTwo">
+			<p id="text"></p>
+			<div id="circle">
+				<p id="chances"></p>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="lose" id="lose">
+		<h1 id="h1finish">you lose!!</h1>
+		<h2 id="h2finish">you only get<br>10 tries!</h2>
+		<button id="retry">retry new #</button>
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
